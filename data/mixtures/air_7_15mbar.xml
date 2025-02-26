@@ -1,8 +1,8 @@
-<!-- Ionized 11 species air mixture -->
-<mixture mechanism="air11_Park">
+<!-- Neutral 5 species air mixture -->
+<mixture mechanism="air7", gsi_mechanism="gsi_surface_cat_15mbar">
 
     <species>
-        e- N+ O+ NO+ N2+ O2+ N O NO N2 O2
+        e- NO+ N O NO N2 O2
     </species>
 
     <element_compositions default="air">
@@ -10,4 +10,3 @@
     </element_compositions>
 
 </mixture>
-
